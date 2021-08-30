@@ -42,16 +42,23 @@ export default {
 
 <style>
 header {
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .logo-wrapper {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.logo-wrapper img {
+    margin-right: 20px;
 }
 
 .theme {
@@ -127,6 +134,19 @@ input:checked + .slider:before {
 @media only screen and (max-width: 600px) {
     header {
         flex-direction: column;
+    }
+
+    .logo-wrapper {
+        margin-top: 20px;
+        flex-direction: column;
+    }
+
+    .logo-wrapper h1 {
+        margin: 0;
+    }
+
+    .logo-wrapper img {
+        margin: 0;
     }
 }
 </style>

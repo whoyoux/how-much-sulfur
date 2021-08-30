@@ -92,6 +92,7 @@ export default {
     font-size: 18px;
     height: 3rem;
     border: 0;
+    border-radius: 0;
     background-color: var(--color-bg);
     color: var(--font-color);
     text-align: center;
