@@ -23,9 +23,9 @@
 <script>
 export default {
     mounted() {
-        document.querySelector('#theme_toggle').checked = true;
-        document.body.setAttribute('data-theme', 'dark');
-        this.setThemeButton();
+        document.querySelector('#theme_toggle').checked = true
+        document.body.setAttribute('data-theme', 'dark')
+        this.setThemeButton()
     },
     methods: {
         setThemeButton() {
@@ -35,9 +35,9 @@ export default {
             //         ? document.body.setAttribute('data-theme', 'dark')
             //         : document.body.removeAttribute('data-theme');
             // });
-        }
-    }
-};
+        },
+    },
+}
 </script>
 
 <style>
@@ -124,11 +124,13 @@ input:checked + .slider:before {
 }
 
 .slider.round {
-    border-radius: 34px;
+    /* border-radius: 34px; */
+    border-radius: 1rem;
 }
 
 .slider.round:before {
-    border-radius: 50%;
+    /* border-radius: 50%; */
+    border-radius: 1rem;
 }
 
 @media only screen and (max-width: 600px) {
