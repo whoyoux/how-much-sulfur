@@ -415,6 +415,8 @@ export default {
             })
         },
         calculateItems() {
+            this.finalArray = []
+
             let c4Items = []
             let rocketItems = []
             let bGrenadeItems = []
