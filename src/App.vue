@@ -521,6 +521,7 @@ body {
     padding: 0;
     color: var(--font-color);
     background: var(--color-bg);
+    touch-action: manipulation;
 }
 
 a {
